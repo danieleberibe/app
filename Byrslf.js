@@ -43,9 +43,12 @@ app.use('/api', function(req,res,next){
 app.use('/api', api); /* redirect to routes */
 app.use('/*', express.static(path.join(__dirname, 'public')));
 
-sserver.listen(server_port, server_host, function() {
-    console.log('Listening on port %d', server_port);
-});
+http = require 'http'
+handle = (req, res) -> res.end "hit"
+
+server = http.createServer handle
+
+server.listen process.env.PORT || 5000
 });
 
 module.exports = app;
