@@ -43,10 +43,10 @@ app.use('/api', function(req,res,next){
 app.use('/api', api); /* redirect to routes */
 app.use('/*', express.static(path.join(__dirname, 'public')));
 
-http = require 'http'
+https = require 'https'
 handle = (req, res) -> res.end "hit"
 
-server = http.createServer handle
+server = https.createServer handle
 
 server.listen process.env.PORT || 5000
 });
