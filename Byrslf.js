@@ -42,8 +42,9 @@ app.use('/api', function(req,res,next){
 app.use('/api', api); /* redirect to routes */
 app.use('/*', express.static(path.join(__dirname, 'public')));
 
-var server = app.listen(8000, "0.0.0.0", function () {
-  console.log('BYRSLF listening on port ' + server.address().port + ' hosting at ' + server.address().address);
+server.listen(config.port, function () {
+  console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+});
 });
 
 module.exports = app;
