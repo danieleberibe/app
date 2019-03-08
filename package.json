@@ -1,0 +1,33 @@
+{
+  "name": "Byrslf",
+  "version": "1.0.0",
+  "description": "Byrslf Clothing",
+  "main": "Byrslf.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./Byrslf.js"
+  },
+  "repository": "https://gitlab.com/Famosi/Byrslf.git",
+  "author": [
+    "Simone Faggi <simone.faggi@studio.unibo.it"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "aylien_textapi": "^0.6.0",
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.18.2",
+    "cloudnode-cli": "^0.2.23",
+    "express": "~4.15.5",
+    "jsonwebtoken": "^6.2.0",
+    "mdbootstrap": "^4.5.0",
+    "morgan": "^1.9.0",
+    "node-cron": "^1.2.1",
+    "node-fetch": "^1.7.3",
+    "node-geocoder": "^3.21.1",
+    "nodemailer": "^4.4.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}

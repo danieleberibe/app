@@ -1,0 +1,688 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-bottom: 1.2em;
+  font-size: medium;
+  /*line-height: 1.5;*/
+  background: url(http://skipperfilms.com/wp-content/uploads/2014/10/Wooden-background-texture-pattern-images-for-website-HD-template-PSD-free-download.jpg);
+  background-position: center;
+}
+
+title{
+  display: block;
+}
+
+h1{
+  text-align: center;
+}
+
+.brandLogo{
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.brand img{
+  width: 8%
+}
+
+#model{
+  padding-top: 10px;
+  width: 100%;
+}
+
+.cd-product-customizer {
+  padding-right: 39%;
+  padding-bottom: 5%;
+}
+
+.cd-product-customizer a {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    color: transparent;
+    white-space: nowrap;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid ;
+    box-shadow: 0 0 0 2px #EDEDED;
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+    margin: 10px;
+}
+
+.selected {
+    box-shadow: 0 0 0 2px #FFB500;
+}
+.cd-product-customizer .selected{
+  box-shadow: 0 0 0 2px #FFB500;
+}
+
+
+.cd-product-customizer a[data-color=white]{
+  background-color: white;
+}
+
+.cd-product-customizer a[data-color=black]{
+  background-color: black;
+}
+
+.cd-product-customizer a[data-color=grey]{
+  background-color: grey;
+}
+
+img{
+  margin: 0;
+}
+
+.slider {
+  width: 50%;
+  float: right;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}
+
+.carousel img{
+  cursor: pointer;
+  border-radius: 40px;
+  width: 40%;
+}
+
+button.btn.btn-outline-primary{
+  display: inline-block;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-color: #FFB500;
+  background-color: #fff8dc!important;
+  color: black!important;
+}
+.buyNow, #stoffa{
+  text-align: center;
+}
+
+#selectColor{
+  float: left;
+  text-align: center;
+  width: 48%;
+  margin-top: 7%;
+}
+
+.container{
+  display: none;
+}
+
+#customizeColor{
+  width: 90%;
+  margin-bottom: 0px;
+  margin-right: 180px;
+  margin-left: -80px;
+}
+#gifConteiner{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-top: 8%;
+  width: 100%
+}
+#stoffa{
+  padding-top: 45px;
+}
+
+ol{
+  display: inline;
+}
+
+ul, ol{
+  padding-left: 0;
+  padding-right:0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+
+.blog-card {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  text-align: center;
+}
+.blog-card.spring-fever {
+  background-image: url(http://skipperfilms.com/wp-content/uploads/2014/10/Wooden-background-texture-pattern-images-for-website-HD-template-PSD-free-download.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#black{
+  background: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  -webkit-filter: blur(120px);
+  border-radius: 21px;
+  height: 520px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+#blackmod{
+  background: black;
+  padding-bottom: 30px;
+  margin-right: 80px;
+  margin-left: 80px;
+  border-radius: 27px;
+  padding-top: 20px;
+}
+#Mod1{
+  border-radius: 10px;
+  width: 200px;
+  background: transparent;
+  height: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-right: 100px;
+  border-color: black;
+  margin-left: 9%;
+  padding-left: 24px;
+  font-size: 20px;
+
+}
+#Mod2{
+  border-radius: 10px;
+  width: 200px;
+  background: transparent;
+  height: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-color: black;
+  font-size: 20px;
+
+}
+
+
+
+.blog-card .color-overlay {
+  /* Rectangle 11: */
+  background: rgba(84, 104, 110, 0.4);
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+.blog-card .gradient-overlay {
+  /* bg-gradient: */
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, .6) 21%);
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, .6) 21%);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, .6) 21%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, .6) 21%);
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  top: 350px;
+  left: 0;
+  z-index: 15;
+}
+.blog-card:hover .card-info {
+  opacity: 1;
+  bottom: 280px;
+}
+.blog-card:hover .color-overlay {
+  background: rgba(84, 104, 110, 0.8);
+}
+.title-content {
+  text-align: center;
+  margin: 0px 0 0 0;
+  z-index: 20;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 0;
+}
+hr {
+  width: 50px;
+  height: 3px;
+  margin: 20px auto;
+  border: 0;
+  background: #d0bb57;
+}
+.intro {
+  width: 170px;
+  margin: 0 auto;
+  color: #dce3e7;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 18px;
+}
+.card-info {
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  margin: 0 auto;
+  padding: 0 50px;
+  color: #dce3e7;
+  font-style: 16px;
+  line-height: 24px;
+  z-index: 20;
+  opacity: 0;
+  transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+.utility-info {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 20;
+}
+.utility-list {
+  list-style-type: none;
+  margin: 0 0 10px 20px;
+  padding: 0;
+  width: 100%;
+}
+.utility-list li {
+  margin: 0 15px 0 0;
+  padding: 0 0 0 22px;
+  display: inline-block;
+  color: #dce3e7;
+  font-family: 'Roboto', sans-serif;
+}
+.utility-list li.comments {
+  background: url(/assets/euro-symbol.svg) no-repeat 0 0.1em;
+  background-size: 17px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+@media screen and (max-width:425px){
+  .brand img{
+    width: 25%;
+  }
+  #black{
+    filter: blur(120px);
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .container-fluid {
+    padding-bottom:100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -45px;
+
+  }
+  .blog-card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding-bottom:50px;
+  }
+
+  .blog-card.spring-fever{
+    margin-top: 9%;
+  }
+
+  #modButton{
+    text-align: center;
+  }
+  #gifConteiner{
+    position: relative;
+  }
+
+  #customizeColor{
+    width: 130%;
+    margin-top: 15%;
+    margin-left: -39px;
+  }
+
+  #modButton > button{
+    border-radius: 10px;
+    width: 120px;
+    background: transparent;
+    height: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 100px;
+    border-color: black;
+    margin-left: -100%;
+    margin-top: -18%;
+  }
+
+  #selectColor{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: -10%;
+    margin-bottom: -40%;
+  }
+
+  #stoffa{
+    padding-right: 200px;
+  }
+  #Mod1{
+    border-radius: 10px;
+    width: 70px;
+    background: transparent;
+    height: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 40px;
+    border-color: black;
+    margin-left: 14%;
+    font-size: 13px;
+      padding-left: 0px;
+
+  }
+  #Mod2{
+    border-radius: 10px;
+    width: 70px;
+    background: transparent;
+    height: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color: black;
+    font-size: 13px;
+  }
+
+
+}
+
+
+
+@media screen and (min-width:321px)and (max-width: 429px)  {
+  .container-fluid {
+    padding-bottom:100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -45px;
+
+  }
+  .blog-card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding-bottom:50px;
+  }
+
+  .blog-card.spring-fever{
+    margin-top: 9%;
+  }
+
+  #modButton{
+    text-align: center;
+  }
+  #gifConteiner{
+    position: relative;
+  }
+
+  #customizeColor{
+    width: 110%;
+    margin-top: -4%;
+    margin-left: -5%;
+  }
+
+  #modButton > button{
+    border-radius: 10px;
+    width: 120px;
+    background: transparent;
+    height: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 100px;
+    border-color: black;
+    margin-left: -100%;
+    margin-top: -18%;
+  }
+
+  #selectColor{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    padding-bottom: 20px;
+  }
+
+  #stoffa{
+    padding-right: 200px;
+  }
+  #Mod1{
+    border-radius: 10px;
+    width: 24%;
+    background: transparent;
+    height: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 14%;
+    border-color: black;
+    margin-left: 18%;
+    font-size: 13px;
+      padding-left: 0px;
+
+  }
+  #Mod2{
+    border-radius: 10px;
+    width: 24%;
+    background: transparent;
+    height: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color: black;
+    font-size: 13px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:430px)and (max-width: 768px) { /* IPAD */
+
+  #model{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 895px;
+  }
+
+  .blog-card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding-bottom:50px;
+  }
+
+  .blog-card.spring-fever{
+    margin-top: 9%;
+  }
+
+  #modButton{
+    text-align: center;
+  }
+  #gifConteiner{
+    position: relative;
+  }
+
+  #customizeColor{
+    width: 100%;
+    margin-left: -5px;
+  }
+
+  #modButton > button{
+    border-radius: 10px;
+    width: 120px;
+    background: transparent;
+    height: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 100px;
+    border-color: black;
+    margin-left: -100%;
+    margin-top: -18%;
+  }
+
+  #selectColor{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  #stoffa{
+    padding-right: 200px;
+  }
+
+  #Mod1{
+    border-radius: 10px;
+    width: 24%;
+    background: transparent;
+    height: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 30%;
+    border-color: black;
+    font-size: 15px;
+    padding-left: 4%;
+
+  }
+  #Mod2{
+    border-radius: 10px;
+    width: 24%;
+    background: transparent;
+    height: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color: black;
+    font-size: 15px;
+
+  }
+
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px) { /* IPAD PRO*/
+  #model{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 1190px;
+  }
+
+  .blog-card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding-bottom:50px;
+  }
+
+  .blog-card.spring-fever{
+    margin-top: 9%;
+  }
+
+  #modButton{
+    text-align: center;
+  }
+  #gifConteiner{
+    position: relative;
+  }
+
+  #customizeColor{
+    width: 100%;
+    margin-top: 7%;
+    margin-left: -5px;
+  }
+
+  #modButton > button{
+    border-radius: 10px;
+    width: 120px;
+    background: transparent;
+    height: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 100px;
+    border-color: black;
+    margin-left: -100%;
+    margin-top: -18%;
+  }
+
+  #selectColor{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: -5%;
+  }
+
+  #stoffa{
+    padding-right: 200px;
+  }
+  #Mod1{
+    border-radius: 10px;
+    width: 23%;
+    background: transparent;
+    height: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 34%;
+    border-color: black;
+    font-size: 25px;
+    padding-left: 4%
+
+  }
+  #Mod2{
+    border-radius: 10px;
+    width: 23%;
+    background: transparent;
+    height: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color: black;
+    font-size: 25px;
+
+  }
+
+}

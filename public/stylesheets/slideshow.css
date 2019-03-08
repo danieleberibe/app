@@ -1,0 +1,209 @@
+.portfolio-slideshow-wrapper {
+  position: relative;
+  width: 640px;
+  height: 235px;
+  margin: 175px auto;
+  margin-right: 63px;
+  margin-bottom: 0px;
+}
+.portfolio-slideshow-wrapper ul {
+  list-style: none;
+}
+
+.portfolio-slideshow-wrapper li {
+  width: 400px;
+  height: 250px;
+  background: transparent;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.portfolio-slideshow-wrapper li.items {
+  position: absolute;
+}
+
+.portfolio-slideshow-wrapper li.main-pos {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.portfolio-slideshow-wrapper li.left-pos {
+  z-index: 1;
+  opacity: 0.3;
+  top: 0;
+  left: -600px;
+  right: 0;
+  margin: auto;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.portfolio-slideshow-wrapper li.back-pos {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.05;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+.portfolio-slideshow-wrapper li.right-pos {
+  z-index: 1;
+  opacity: 0.3;
+  top: 0;
+  left: 420px;
+  right: 0;
+  margin: auto;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.portfolio-slideshow-wrapper li p {
+  color: #281b08;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+}
+.portfolio-slideshow-wrapper span {
+  position: relative;
+  margin: 0 auto;
+  left: 272px;
+  top: 320px;
+}
+
+
+
+@media screen and (max-width:320px){
+  .portfolio-slideshow-wrapper {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 250px auto;
+    margin-right: 63px;
+    margin-left: -70px;
+    display: none;
+
+  }
+}
+
+
+
+@media screen and (min-width:321px)and (max-width: 429px) {
+
+  .portfolio-slideshow-wrapper {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 350px auto;
+    margin-right: 63px;
+    margin-left: -30px;
+    display: none;
+
+  }
+}
+
+
+
+@media screen and (min-width:430px)and (max-width: 768px) {
+
+  .portfolio-slideshow-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 565px auto;
+    margin-right: 63px;
+    margin-left: 6px;
+
+  }
+}
+
+
+@media screen and (min-width:769px)and (max-width: 1024px) {
+
+  .portfolio-slideshow-wrapper {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    margin: 800px auto;
+    margin-right: 111px;
+  }
+  .portfolio-slideshow-wrapper ul {
+    list-style: none;
+  }
+  .portfolio-slideshow-wrapper li {
+    width: 400px;
+    height: 250px;
+    background: transparent;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  .portfolio-slideshow-wrapper li.items {
+    position: absolute;
+  }
+  .portfolio-slideshow-wrapper li.main-pos {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .portfolio-slideshow-wrapper li.left-pos {
+    z-index: 1;
+    opacity: 0.3;
+    top: 0;
+    left: -600px;
+    right: 0;
+    margin: auto;
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  .portfolio-slideshow-wrapper li.back-pos {
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.05;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  .portfolio-slideshow-wrapper li.right-pos {
+    z-index: 1;
+    opacity: 0.3;
+    top: 0;
+    left: 420px;
+    right: 0;
+    margin: auto;
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  .portfolio-slideshow-wrapper li p {
+    color: #281b08;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+  }
+  .portfolio-slideshow-wrapper span {
+    position: relative;
+    margin: 0 auto;
+    left: 272px;
+    top: 320px;
+  }
+
+}

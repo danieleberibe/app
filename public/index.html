@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Byrslf</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css" />
+  <link rel="stylesheet" href="/stylesheets/view-style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/css/mdb.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/slideshow.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/slideRespPhone.css">
+</head>
+
+<body>
+
+  <div class="brandLogo">
+    <a href="javascript:void(0)" class="brand">
+      <img src="/assets/logonero150.png" alt="logo">
+    </a>
+  </div>
+  <div class="container-fluid home" id="black"></div>
+  <div class="container-fluid" id="homeView">
+    <div class="container-fluid" id="gifConteiner">
+      <div class="col-md-3">
+        <div class="blog-card spring-fever">
+          <div class="title-content">
+            <h3>T-Shirt</h3>
+            <hr />
+            <a href="javascript:void(0)" id="tshirt">
+                <img width="90%" src="/assets/gifmagliette.gif" alt="Sweatshirt">
+              </a>
+          </div>
+          <!-- /.card-info -->
+          <div class="utility-info">
+            <ul class="utility-list">
+              <li class="comments" color="#FFD100"> Da 20</li>
+            </ul>
+          </div>
+          <!-- /.utility-info -->
+          <!-- overlays -->
+
+        </div>
+        <!-- /.blog-card -->
+      </div>
+      <div class="col-md-3">
+        <div class="blog-card spring-fever">
+          <div class="title-content">
+            <h3>Sweatshirt</h3>
+            <hr />
+            <a href="javascript:void(0)" id="sweatshirt">
+                <img width="90%" src="/assets/giffelpe.gif" alt="Sweatshirt">
+              </a>
+          </div>
+          <!-- /.title-content -->
+
+          <!-- /.card-info -->
+          <div class="utility-info">
+            <ul class="utility-list">
+              <li class="comments">12</li>
+            </ul>
+          </div>
+          <!-- /.utility-info -->
+          <!-- overlays -->
+
+        </div>
+        <!-- /.blog-card -->
+      </div>
+      <div class="col-md-3">
+        <div class="blog-card spring-fever">
+          <div class="title-content">
+            <h3>Croptop</h3>
+            <hr />
+            <a href="javascript:void(0)" id="croptop">
+                <img width="90%" src="/assets/croptop.gif" alt="Croptop">
+              </a>
+          </div>
+          <!-- /.title-content -->
+
+          <!-- /.card-info -->
+          <div class="utility-info">
+            <ul class="utility-list">
+              <li class="comments">12</li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.blog-card -->
+      </div>
+      <div class="col-md-3">
+        <div class="blog-card spring-fever">
+          <div class="title-content">
+            <h3> Croptop Sweatshirt</h3>
+            <hr />
+            <a href="javascript:void(0)" id="croptopsweatshirt">
+                <img width="90%" src="/assets/giffelpe.gif" alt="Sweatshirt">
+              </a>
+          </div>
+          <!-- /.title-content -->
+
+          <!-- /.card-info -->
+          <div class="utility-info">
+            <ul class="utility-list">
+              <li class="comments">12</li>
+            </ul>
+          </div>
+          <!-- /.utility-info -->
+          <!-- overlays -->
+
+        </div>
+        <!-- /.blog-card -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="model">
+
+    <button type="submit" onclick="changeModel(this)" id="Mod1">
+      <font face="Verdana" color="black" id="Mod1">
+      B-Band
+     </font>
+    </button>
+    <button type="submit" onclick="changeModel(this)" id="Mod2">
+      <font face="Verdana"  color="black"  id="Mod2">
+      B-Stripe
+      </font>
+    </button>
+
+    <div class="container-fluid" id="selectColor">
+      <img src="/assets/tshirt/BMod1S1.png" id="customizeColor">
+      <ul class="cd-product-customizer">
+        <ol data-content="white">
+          <a data-color="white" href="javascript:void(0)" onclick="changeColor(this)" id="B" class="selected"></a>
+        </ol>
+        <ol data-content="black">
+          <a data-color="black" href="javascript:void(0)" onclick="changeColor(this)" id="N"></a>
+        </ol>
+        <ol data-content="grey">
+          <a data-color="grey" href="javascript:void(0)" onclick="changeColor(this)" id="G"></a>
+        </ol>
+      </ul>
+    </div>
+
+
+    <section class="portfolio-slideshow-wrapper">
+      <ul class="carousel">
+          <li class="items main-pos" data-id="1"><p><img src="/assets/Stoffe/dna.jpg" alt="ModelloMag2" onclick="changeStoffa(this,1)" id="S1" class="rotate90"></p></li>
+          <li class="items right-pos" data-id="2"><p><img src="/assets/Stoffe/Versailles.jpg" alt="ModelloMag2" onclick="changeStoffa(this,1)" id="S2" class="rotate90"></p></li>
+          <li class="items back-pos" data-id="3"><p><img src="/assets/Stoffe/santa chiara.jpg" alt="ModelloMag2" onclick="changeStoffa(this,1)" id="S3" class="rotate90"></p></li>
+          <li class="items back-pos" data-id="4"><p><img src="/assets/Stoffe/safari.jpg" alt="ModelloMag2" onclick="changeStoffa(this,1)" id="S4" class="rotate90"></p></li>
+          <li class="items back-pos" data-id="5"><p><img src="/assets/Stoffe/orphisme.jpg" alt="ModelloMag2" onclick="changeStoffa(this,1)" id="S5" class="rotate90"></p></li>
+      </ul>
+    </section>
+
+
+
+    <div class="container" >
+      <div class="flexbox-slideshow">
+          <ul class="slideshow">
+              <li class="placeholder">
+                <img src="/assets/Stoffe/dna.jpg">
+              </li>
+              <li class="slide active" id="slide-1"><img src="/assets/Stoffe/dna.jpg" alt="ModelloMag2" ></li>
+              <li class="slide" id="slide-2"><img src="/assets/Stoffe/Versailles.jpg" alt="ModelloMag2" ></li>
+              <li class="slide" id="slide-3"><img src="/assets/Stoffe/santa chiara.jpg" alt="ModelloMag2" ></li>
+              <li class="slide" id="slide-4"><img src="/assets/Stoffe/safari.jpg" alt="ModelloMag2"  ></li>
+              <li class="slide" id="slide-5"><img src="/assets/Stoffe/orphisme.jpg" alt="ModelloMag2" ></li>
+          </ul>
+      </div>
+      <ul class="dotnav">
+          <li class="dotnav-item active" onclick="changeOrder(this, 1)" id=S1><span><img src="/assets/Stoffe/dna.jpg" alt="ModelloMag2"></span></li>
+          <li class="dotnav-item" onclick="changeOrder(this, 2)" id=S2><span><img src="/assets/Stoffe/Versailles.jpg" alt="ModelloMag2" ></span></li>
+          <li class="dotnav-item" onclick="changeOrder(this, 3)" id=S3><span><img src="/assets/Stoffe/santa chiara.jpg" alt="ModelloMag2" ></span></li>
+          <li class="dotnav-item" onclick="changeOrder(this, 4)" id=S4><span><img src="/assets/Stoffe/safari.jpg" alt="ModelloMag2" ></span></li>
+          <li class="dotnav-item" onclick="changeOrder(this, 5)" id=S5><span><img src="/assets/Stoffe/orphisme.jpg" alt="ModelloMag2" ></span></li>
+      </ul>
+   </div>
+
+
+
+
+    <!--<button type="submit" href="javascript:void(0)" onclick="portfolio_ss_pos(this)" >
+      <font face="Verdana"  color="black" >
+        prev
+      </font>
+    </button>-->
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/facilities/history/scripts/bundled/html4+html5/jquery.history.js"></script>
+  <script type="text/javascript" src="/js/visualizer.js"></script>
+  <script type="text/javascript" src="/js/tshirt.js"></script>
+  <script type="text/javascript" src="/js/sweat.js"></script>
+  <script type="text/javascript" src="/js/croptop.js"></script>
+  <script type="text/javascript" src="/js/slideshow.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.5/js/mdb.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="/js/slick.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
