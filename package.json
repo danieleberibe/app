@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node ./Byrslf.js"
   },
-  "repository": "https://gitlab.com/Famosi/Byrslf.git",
+  "repository": "https://github.com/danieleberibe/app.git",
   "author": [
     "Simone Faggi <simone.faggi@studio.unibo.it"
   ],
