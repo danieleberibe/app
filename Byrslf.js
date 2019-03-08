@@ -7,7 +7,8 @@
 *	Simone Faggi
 *
 */
-
+var server_port = process.env.YOUR_PORT || process.env.PORT || 80;
+var server_host = process.env.YOUR_HOST || '0.0.0.0';
 var express = require('express');
 var logger = require('morgan');
 var path = require('path');
@@ -42,8 +43,8 @@ app.use('/api', function(req,res,next){
 app.use('/api', api); /* redirect to routes */
 app.use('/*', express.static(path.join(__dirname, 'public')));
 
-server.listen(config.port, function () {
-  console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+sserver.listen(server_port, server_host, function() {
+    console.log('Listening on port %d', server_port);
 });
 });
 
