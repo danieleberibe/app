@@ -42,8 +42,37 @@ app.use('/api', function(req,res,next){
 app.use('/api', api); /* redirect to routes */
 app.use('/*', express.static(path.join(__dirname, 'public')));
 
-var server = app.listen(8000, "0.0.0.0", function () {
-  console.log('BYRSLF listening on port ' + server.address().port + ' hosting at ' + server.address().address);
+var port = parseInt(process.env.PORT || '8000', 10);
+var server = http.createServer(app);
+
+server.listen(port);
+
+server.on('error', function (error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+  var bind = 'Port ' + port;
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
 });
+
+server.on('listening', function () {
+  var addr = server.address();
+  var bind = 'port ' + addr.port;
+  console.log('Listening on ' + bind);
+});
+
+module.exports = app;
 
 module.exports = app;
