@@ -42,6 +42,7 @@ app.use('/api', function(req,res,next){
 
 app.use('/api', api); /* redirect to routes */
 app.use('/*', express.static(path.join(__dirname, 'public')));
+app.listen(process.env.PORT);
 
 https = require 'https'
 handle = (req, res) -> res.end "hit"
